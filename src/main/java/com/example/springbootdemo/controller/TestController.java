@@ -80,4 +80,11 @@ public class TestController {
         log.debug("cs");
         log.error("{}de{}ff{}","你好","测试","没有响应");
     }
+
+    @Test
+    public void test06(){
+        log.debug("cs222222");
+        log.error("{}de{}ff{}","你好","测试","没有响应222222222");
+    }
+
 }
